@@ -40,6 +40,11 @@ This Weather App is an Express.js API that fetches current weather data for a sp
 
 ## Desktop Preview
 
+![Screenshot 2024-10-26 160659](https://github.com/user-attachments/assets/6f820e2d-3682-4c73-82e6-700eba2da142)
+![Screenshot 2024-10-26 160712](https://github.com/user-attachments/assets/69e6b0cc-c9e5-4145-9833-4d49e4e0ccfa)
+![Screenshot 2024-10-26 160731](https://github.com/user-attachments/assets/44450237-e898-4ed8-880d-5db64205c14f)
+
+
 
 ## Alert Conditions
 
