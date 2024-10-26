@@ -1,0 +1,52 @@
+.forecastContainer {
+    @apply w-full max-w-4xl mx-auto my-8;
+}
+
+.forecastGrid {
+    @apply grid grid-cols-1 md:grid-cols-5 gap-4;
+}
+
+.forecastCard {
+    @apply flex flex-col items-center p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow;
+}
+
+.date {
+    @apply text-gray-600 font-medium mb-2;
+}
+
+.weatherIcon {
+    @apply w-12 h-12;
+}
+
+.tempContainer {
+    @apply mt-3 text-center;
+}
+
+.maxTemp {
+    @apply text-sm font-medium text-gray-900;
+}
+
+.minTemp {
+    @apply text-sm text-gray-500;
+}
+
+.description {
+    @apply mt-2 text-sm text-gray-600 capitalize;
+}
+
+.details {
+    @apply mt-2 text-xs text-gray-500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .forecastGrid {
+        @apply grid-cols-2 gap-3;
+    }
+}
+
+@media (max-width: 480px) {
+    .forecastGrid {
+        @apply grid-cols-1;
+    }
+}

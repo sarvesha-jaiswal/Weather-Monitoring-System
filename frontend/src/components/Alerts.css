@@ -1,0 +1,38 @@
+.alerts-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.alerts-container h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.alert p {
+    font-size: 1em;
+    color: white;
+}
+
+.alert.alert-warning {
+    background-color: #ffc107;
+}
+
+.alert.alert-danger {
+    background-color: #dc3545;
+}
+
+.alert.alert-info {
+    background-color: #17a2b8;
+}
+
+.alert strong {
+    font-weight: bold;
+}

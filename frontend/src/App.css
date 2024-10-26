@@ -1,0 +1,40 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather-summary {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.forecast-summary,
+.historical-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.alerts {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ffc107;
+  border-radius: 8px;
+  background-color: #fff3cd;
+}
+
+.alerts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alerts li {
+  margin: 5px 0;
+  padding: 5px;
+  border-left: 3px solid #ffc107;
+  padding-left: 10px;
+}
